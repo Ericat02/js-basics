@@ -1,10 +1,11 @@
 const undervisere = ["Anders", "Stine", "Allan"];
-console.log("Undervisere");
+
+// console.log("Undervisere");
 
 const section = document.querySelector("section");
 
 undervisere.forEach(visNavne);
 
-function visNavne(element) {
-  console.log(element);
+function visNavne(elm) {
+  section.innerHTML += `<p>${elm} er sød </p>`;
 }

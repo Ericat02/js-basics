@@ -1,0 +1,13 @@
+img {
+  max-width: 20%;
+  border:
+    solid,
+    black 1px;
+
+  border-radius: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
